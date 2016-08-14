@@ -1,0 +1,32 @@
+
+body {
+  background-color: #AEC6CF;
+  font-family: Petit Formal Script;
+}
+
+.img-responsive {
+	height: 400px;
+	display: inline-flex;
+}
+
+.btn-primary {
+  background-color: #779ECB;
+  margin-top: 10 px;  
+}
+
+.quotebox, p {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 1.5em;
+}
+.yeButton {
+  background-color: beige;
+  border: 2px solid;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+a, img {
+  height: 35px;
+}
