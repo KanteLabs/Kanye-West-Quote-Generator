@@ -4,29 +4,28 @@ body {
   font-family: Petit Formal Script;
 }
 
-.img-responsive {
-	height: 400px;
-	display: inline-flex;
-}
-
-.btn-primary {
-  background-color: #779ECB;
-  margin-top: 10 px;  
-}
-
-.quotebox, p {
+#currentquote {
   text-align: center;
-  margin-top: 5%;
-  font-size: 1.1em;
+  margin-top: 10px;
+  font-size: 1.5em;
 }
-.yeButton {
+.mdl-card__supporting-text{  
+  border-bottom: 2px solid;
+}
+.mdl-card {
   background-color: beige;
-  border: 2px solid;
+  margin: auto; 
+  border: 3px solid;
   text-align: center;
-  margin-top: 2%;
-  margin-left: 30%;
-  margin-right: 30%;
 }
-a, img {
-  height: 35px;
+.mdl-card__media {
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  background-color: black;
+}
+.mdl-button{
+  float: left;
+}
+.mdl-card__title {
+  font-size: 1.5em;
 }
